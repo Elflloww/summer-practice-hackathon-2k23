@@ -1,0 +1,129 @@
+.main-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 600px;
+  width: 450px;
+  margin-left: 750px;
+  margin-top: 200px;
+  border: 2px solid #000000;
+  border-radius: 30px;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
+  background: hsla(33, 100%, 53%, 1);
+  background: linear-gradient(45deg, hsla(33, 100%, 53%, 1) 0%, hsla(58, 100%, 68%, 1) 100%);
+
+  background: -moz-linear-gradient(45deg, hsla(33, 100%, 53%, 1) 0%, hsla(58, 100%, 68%, 1) 100%);
+
+  background: -webkit-linear-gradient(45deg, hsla(33, 100%, 53%, 1) 0%, hsla(58, 100%, 68%, 1) 100%);
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FF930F", endColorstr="#FFF95B", GradientType=1 );
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.form-input{
+  height: 25px;
+  border: none;
+  border-bottom: 2px black solid;
+  transition: height 0.5s;
+}
+
+.form-input:focus{
+  height: 35px;
+}
+
+.list{
+  overflow-y: auto;
+  
+}
+
+.name-code-pairs{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 5px;
+  padding: 7px;
+ 
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  margin: auto;
+  margin-top: 20px;
+  width: 250px;
+  color: rgb(0, 0, 0) !important;
+  padding: 10px;
+  border-style: none;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  background: hsla(186, 33%, 94%, 1);
+
+  background: linear-gradient(45deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+
+  background: -moz-linear-gradient(45deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+
+  background: -webkit-linear-gradient(45deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#ebf4f5", endColorstr="#B5C6E0", GradientType=1 );; 
+  
+  
+}
+
+.button:hover{
+  background: hsla(61, 91%, 54%, 1);
+
+  background: linear-gradient(45deg, hsla(61, 91%, 54%, 1) 0%, hsla(95, 98%, 41%, 1) 100%);
+  
+  background: -moz-linear-gradient(45deg, hsla(61, 91%, 54%, 1) 0%, hsla(95, 98%, 41%, 1) 100%);
+  
+  background: -webkit-linear-gradient(45deg, hsla(61, 91%, 54%, 1) 0%, hsla(95, 98%, 41%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F3F520", endColorstr="#59D102", GradientType=1 );
+}
+
+.delete-button{
+  color: rgb(0, 0, 0) !important;
+  border-style: none;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  background: hsla(186, 33%, 94%, 1);
+
+  background: linear-gradient(45deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+  
+  background: -moz-linear-gradient(45deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+  
+  background: -webkit-linear-gradient(45deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#ebf4f5", endColorstr="#B5C6E0", GradientType=1 ); 
+  
+}
+
+.delete-button:hover{
+  background: hsla(61, 91%, 54%, 1);
+
+  background: linear-gradient(45deg, hsla(61, 91%, 54%, 1) 0%, hsla(95, 98%, 41%, 1) 100%);
+  
+  background: -moz-linear-gradient(45deg, hsla(61, 91%, 54%, 1) 0%, hsla(95, 98%, 41%, 1) 100%);
+  
+  background: -webkit-linear-gradient(45deg, hsla(61, 91%, 54%, 1) 0%, hsla(95, 98%, 41%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F3F520", endColorstr="#59D102", GradientType=1 );
+}
+
+
+
+
+
+
