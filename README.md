@@ -4,7 +4,7 @@ Wifi Name: HGGuest
 
 Wifi Pass: haufegroup!
 
-Developer: <ADD_YOUR_FULL_NAME>
+Developer: Hirb Andrei
 
 In this hackathon challenge, you will be tasked with developing a Multi-Factor Authentication (MFA) code generator. Don't worry it's not as scary as it sounds.
 
